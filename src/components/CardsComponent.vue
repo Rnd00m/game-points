@@ -3,7 +3,7 @@ import PlayerPoints from "@/components/PlayerPointsComponent.vue";
 </script>
 
 <template>
-  <div class="grid grid-cols-2 gap-6">
-    <PlayerPoints v-for="n in 8" />
+  <div class="grid sm:grid-cols-2 grid-cols-1 min-h-[90vh]">
+    <PlayerPoints v-for="n in 4" />
   </div>
 </template>

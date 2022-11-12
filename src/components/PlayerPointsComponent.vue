@@ -1,23 +1,12 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="card w-96 bg-base-100 shadow-xl">
-    <div class="card-body items-center text-center">
-      <h2 class="card-title">Player name</h2>
-      <div class="form-control">
-        <div class="input-group input-group-lg">
-          <button class="btn btn-lg">-</button>
-          <input
-            type="text"
-            placeholder="10"
-            class="input input-lg input-bordered w-24 text-center"
-          />
-          <button class="btn btn-lg">+</button>
-        </div>
-      </div>
-      <div class="card-actions">
-        <!--        <button class="btn btn-primary">Buy Now</button>-->
-      </div>
+  <div class="player-points-wrapper relative">
+    <h1 class="absolute top-2 left-2 text-3xl font-bold">Player X</h1>
+    <div class="score grid grid-cols-3 items-center text-4xl h-full">
+      <button class="min-h-full">-</button>
+      <div class="text-center font-bold text-8xl">10</div>
+      <button class="min-h-full">+</button>
     </div>
   </div>
 </template>
