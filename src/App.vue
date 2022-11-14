@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
         />
       </svg>
     </RouterLink>
-    <RouterLink to="/about">
+    <RouterLink to="/players">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-5 w-5"
