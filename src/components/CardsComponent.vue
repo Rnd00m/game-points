@@ -6,7 +6,7 @@ const counterStore = useCounterStore();
 </script>
 
 <template>
-  <div class="grid sm:grid-cols-2 grid-cols-1 min-h-[92.6vh]">
+  <div class="grid sm:grid-cols-2 grid-cols-1">
     <PlayerPoints
       :player="player"
       :key="player.name"
